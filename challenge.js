@@ -23,7 +23,7 @@ console.log(arr)
 const newarr = JSON.stringify(arr)
 const fs = require('fs')
 
-fs.writeFile('output2.json', newarr, (err) => {
+fs.writeFile('output.json', newarr, (err) => {
     if (err) throw err;
     }
 )
